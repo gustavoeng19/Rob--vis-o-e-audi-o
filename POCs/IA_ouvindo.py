@@ -13,4 +13,4 @@ with mic as fonte:
         text = r.recognize_google(audio, language= "pt-BR")
         print("Você disse: {}".format(text))
     except:
-        print("Não entendi o que você disse")
+        print("Não entendi o que você disse") 
